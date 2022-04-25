@@ -12,7 +12,7 @@ import zooAnimales.Animal;
  * @author usuario
  */
 public class Zoologico {
-    private static String nombre;
+    private  String nombre;
     private String ubicacion;
     private ArrayList<Zona> zonas = new ArrayList<Zona>();
     
@@ -51,7 +51,7 @@ public class Zoologico {
        return this.zonas;
    }
 
-    public static String getNombre() {
+    public String getNombre() {
         return nombre;
     }
       

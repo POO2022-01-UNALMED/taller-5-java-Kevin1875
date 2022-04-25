@@ -14,7 +14,7 @@ import zooAnimales.Mamifero;
  */
 public class Zona {
     private String nombre;
-    private Zoologico zoo;
+    private static Zoologico zoo;
     private ArrayList<Animal> animales=new ArrayList<Animal>();
 
     public Zona(String nombre, Zoologico zoo) {
@@ -42,7 +42,7 @@ public class Zona {
         return nombre;
     }
 
-    public Zoologico getZoo() {
+    public static Zoologico getZoo() {
         return zoo;
     }
 
