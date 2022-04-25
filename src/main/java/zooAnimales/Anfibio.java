@@ -30,8 +30,7 @@ private static ArrayList<Anfibio> listado=new ArrayList<Anfibio>();
 
     public Anfibio() {
         this.listado.add(this);
-        this.ranas = 0;
-        this.salamandras = 0;
+        
     }
    
     

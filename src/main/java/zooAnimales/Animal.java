@@ -73,8 +73,8 @@ public class Animal {
 
     @Override
     public String toString() {
-        if (zona!=null && Zoologico.getNombre()!=null){
-        return "Mi nombre es " + nombre + ", tengo una edad de " + edad + ", habito en " + habitat + " y mi genero es " + genero + ", la zona en la que me ubico es " + zona +", en el" + Zoologico.getNombre();
+        if (zona!=null && Zona.getZoo()!=null){
+        return "Mi nombre es " + nombre + ", tengo una edad de " + edad + ", habito en " + habitat + " y mi genero es " + genero + ", la zona en la que me ubico es " + zona +", en el" + Zona.getZoo();
         }
         else
             return "Mi nombre es " + nombre + ", tengo una edad de " + edad + ", habito en " + habitat + " y mi genero es " + genero;

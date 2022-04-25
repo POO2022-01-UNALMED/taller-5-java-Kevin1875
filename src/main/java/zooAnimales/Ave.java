@@ -24,8 +24,7 @@ public class Ave extends Animal{
 
     public Ave() {
         this.listado.add(this);
-        this.halcones = 0;
-        this.aguilas = 0;
+        
     }
     
     
@@ -36,7 +35,7 @@ public class Ave extends Animal{
     
     
     public static int cantidadAves(){
-        return listado.size();
+        return Ave.listado.size();
     }
     
     public static Ave crearHalcon(){
